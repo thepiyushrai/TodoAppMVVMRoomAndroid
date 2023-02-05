@@ -1,4 +1,4 @@
-package com.gtappdevelopers.noteapplication.activity
+package com.gtappdevelopers.todoNoteapplication.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,9 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.gtappdevelopers.data.model.Note
-import com.gtappdevelopers.noteapplication.R
+import com.gtappdevelopers.todoNoteapplication.R
 import com.gtappdevelopers.data.viewmodel.ToDoNoteViewModal
-import com.gtappdevelopers.noteapplication.databinding.ActivityAddEditNoteBinding
+import com.gtappdevelopers.todoNoteapplication.databinding.ActivityAddEditNoteBinding
 import java.text.SimpleDateFormat
 import java.util.*
 

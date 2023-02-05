@@ -1,4 +1,4 @@
-package com.gtappdevelopers.noteapplication
+package com.gtappdevelopers.todoNoteapplication
 
 import org.junit.Test
 

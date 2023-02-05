@@ -1,4 +1,4 @@
-package com.gtappdevelopers.noteapplication.activity
+package com.gtappdevelopers.todoNoteapplication.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,10 +9,11 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.gtappdevelopers.data.model.Note
-import com.gtappdevelopers.noteapplication.adapter.NoteRecVAdapter
-import com.gtappdevelopers.noteapplication.R
+import com.gtappdevelopers.todoNoteapplication.adapter.NoteRecVAdapter
+import com.gtappdevelopers.todoNoteapplication.R
 import com.gtappdevelopers.data.viewmodel.ToDoNoteViewModal
 import com.gtappdevelopers.noteapplication.databinding.ActivityMainBinding
+import com.gtappdevelopers.todoNoteapplication.databinding.ActivityMainBinding
 
 
 class HomeActivity : AppCompatActivity(), NoteRecVAdapter.NoteClickInterface,

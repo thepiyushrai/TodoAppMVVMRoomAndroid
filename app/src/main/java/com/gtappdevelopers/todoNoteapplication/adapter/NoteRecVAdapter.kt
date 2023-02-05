@@ -1,4 +1,4 @@
-package com.gtappdevelopers.noteapplication.adapter
+package com.gtappdevelopers.todoNoteapplication.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.gtappdevelopers.data.model.Note
-import com.gtappdevelopers.noteapplication.R
-import com.gtappdevelopers.noteapplication.databinding.TodoNoteRvItemBinding
+import com.gtappdevelopers.todoNoteapplication.R
+import com.gtappdevelopers.todoNoteapplication.databinding.TodoNoteRvItemBinding
 
 class NoteRecVAdapter(
     val context: Context,
