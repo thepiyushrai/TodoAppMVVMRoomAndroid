@@ -65,7 +65,7 @@ class EditMyNoteActivity : AppCompatActivity() {
             binding.idEdtNoteName.setText(noteTitle)
             binding.idEdtNoteDesc.setText(noteDescription)
         } else {
-            binding.idBtn.text = "Save Note"
+            binding.idBtn.text = "Save My Note"
         }
     }
 
