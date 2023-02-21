@@ -17,7 +17,7 @@ class EditMyNoteActivity : AppCompatActivity() {
     private var noteType: String? = null
     lateinit var binding: ActivityAddEditNoteBinding
     lateinit var viewModal: ToDoNoteViewModal
-    var mNoteID = -1;
+    var mNoteID = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -61,11 +61,11 @@ class EditMyNoteActivity : AppCompatActivity() {
             val noteTitle = intent.getStringExtra("noteTitle")
             val noteDescription = intent.getStringExtra("noteDescription")
             mNoteID = intent.getIntExtra("mnoteId", -1)
-            binding.idBtn.setText("Update My Note")
+            binding.idBtn.text = "Update My Note"
             binding.idEdtNoteName.setText(noteTitle)
             binding.idEdtNoteDesc.setText(noteDescription)
         } else {
-            binding.idBtn.setText("Save Note")
+            binding.idBtn.text = "Save Note"
         }
     }
 

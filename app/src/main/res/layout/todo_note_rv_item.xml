@@ -2,8 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.cardview.widget.CardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
@@ -21,11 +20,17 @@
             android:id="@+id/idTVNote"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
             android:layout_toLeftOf="@id/idIVDelete"
             android:padding="4dp"
             android:text="Note"
-            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
             android:textSize="18sp" />
 
         <!--text view for displaying our last updated text-->
@@ -34,11 +39,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/idTVNote"
-            android:layout_margin="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
             android:layout_toLeftOf="@id/idIVDelete"
             android:padding="4dp"
             android:text="Updated At"
-            android:textColor="@color/white"
+            android:textColor="@color/teal_700"
             android:textSize="13sp" />
 
         <!--imageview for displaying delete icon-->
@@ -52,7 +62,7 @@
             android:layout_margin="3dp"
             android:padding="3dp"
             android:src="@drawable/ic_delete"
-            app:tint="@color/white" />
+            app:tint="@color/teal_700" />
 
     </RelativeLayout>
 

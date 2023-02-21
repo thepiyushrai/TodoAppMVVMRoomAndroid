@@ -42,8 +42,8 @@ class NoteRecVAdapter(
         return myAllNotes.size
     }
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.binding.idTVNote.setText(myAllNotes.get(position).noteTitle)
-        holder.binding.idTVDate.setText(" Updated : "+myAllNotes.get(position).timeStamp)
+        holder.binding.idTVNote.text = myAllNotes.get(position).noteTitle
+        holder.binding.idTVDate.text = " Updated : "+myAllNotes.get(position).timeStamp
         holder.binding.idIVDelete.setOnClickListener {
             noteClickDeleteInterface.onDeleteIconClick(myAllNotes.get(position))
         }

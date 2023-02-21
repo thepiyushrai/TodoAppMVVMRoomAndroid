@@ -12,7 +12,6 @@ import com.gtappdevelopers.data.model.Note
 import com.gtappdevelopers.todoNoteapplication.adapter.NoteRecVAdapter
 import com.gtappdevelopers.todoNoteapplication.R
 import com.gtappdevelopers.data.viewmodel.ToDoNoteViewModal
-import com.gtappdevelopers.noteapplication.databinding.ActivityMainBinding
 import com.gtappdevelopers.todoNoteapplication.databinding.ActivityMainBinding
 
 
@@ -70,7 +69,7 @@ class HomeActivity : AppCompatActivity(), NoteRecVAdapter.NoteClickInterface,
 
     override fun onDeleteIconClick(note: Note) {
         viewModal.deleteMyNote(note)
-        Toast.makeText(this, "${note.noteTitle} Note Deleted", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "${note.noteTitle} Note has been Deleted", Toast.LENGTH_LONG).show()
     }
 
 }
